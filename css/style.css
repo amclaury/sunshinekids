@@ -1,0 +1,142 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ 
+ /*.navbar-fixed {
+	 height: 32px;
+ }
+ 
+ nav .nav-wrapper form, nav .nav-wrapper form .input-field {
+	 height: 100%;
+ }
+ 
+ .nav-wrapper .input-field input[type=search] {
+  height: 64px;
+  padding-left: 4rem;
+  width: calc(100% - 4rem);
+  border: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;*/
+
+
+   body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+      
+ html {
+	 font-family: 'Source Sans Pro', sans-serif;
+ }
+ 
+ h1, h2, h3, h4, h5, h6, a {
+	 font-family: 'Cabin', sans-serif;
+	 text-transform: lowercase;
+ }
+ 
+ a:hover {
+	 	 color: #fdda00;
+ }
+
+ h5 a:hover {
+	 	color: #fdda00;
+ }
+ 
+.list-inline {
+  padding-left: 0;
+  margin-left: 15px;
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.list-inline a {
+	color: white;
+}
+
+.list-inline a:hover {
+	color: #fdda00;
+}
+
+.list-inline-nav {
+  padding-left: 0;
+  margin-top: 5px;
+  list-style: none;
+}
+.list-inline-nav > li {
+  display: inline-block;
+}
+
+.list-inline-nav a {
+	color: white;
+}
+
+.list-inline-nav a:hover {
+	color: #fdda00;
+}
+
+/*nav , nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+	height: 20px !important; 
+	line-height: 20px !important; */
+}
+
+  .nav-wrapper-small {
+    height: 20px;
+    line-height: 20px;
+  }
+
+h6 {
+	padding-bottom: 15px;
+}
+
+input #search {
+height: 45px !important; 
+  margin-top: 15px;
+   border-radius: 5px;
+}
+.search-input{
+      background-color: #82b1ff ;
+  height: 45px !important; 
+  margin-top: 10px;
+  border-radius: 5px;
+}
+nav .input-field label {
+    top: -19px;
+    left: 0;
+}
+
+.btn{
+  background-color: #015e88
+}
+.btn:hover {
+  background-color: #448aff
+}
+.btn:focus{ 
+  background-color: #015e88 
+}
+
+nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul a.btn-floating {
+    margin-top: -12px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+section {
+    padding-top: 1rem;
+    padding-bottom: 0rem !important; 
+}
+page-footer {
+    padding-top: -10px;
+    margin-bottom: 0 !important;
+}
