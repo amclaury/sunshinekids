@@ -28,55 +28,34 @@
 	    <div class="row center">
 			<h4>Annual Reports</h4>
 		</div>
-	   
-      <div class="row center">
-  <a class='dropdown-button btn blueaccent-2' href='#' data-belowOrigin="true" data-activates='dropdowna'><h6>2016 Annual Report<i class="material-icons">arrow_drop_down_circle</i></h6></a>
-  <a class="waves-effect waves-light btn blueaccent-2"><h6>download<i class="material-icons">arrow_downward</i></h6></a>
-
-  <ul id='dropdowna' class='dropdown-content'>
-    <li><a href="#!">2015 Annual Report</a></li>
-    <li><a href="#!">2014 Annual Report</a></li>
-    <li><a href="#!">2013 Annual Report</a></li>
-    <li><a href="#!">2012 Annual Report</a></li>
-	<li><a href="#!">2011 Annual Report</a></li>
-    <li><a href="#!">2010 Annual Report</a></li>
-	<li><a href="#!">2009 Annual Report</a></li>
-    <li><a href="#!">2008 Annual Report</a></li>
-  </ul>
-		</div>
 	</div>	
 	
 		   <div class ="container">
       <div class="row center">
-        <div class="col s12">
-        
-  <ul class="collapsible" data-collapsible="accordion">
-    <li>
-      <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
-      <div class="collapsible-body"> 
-      <iframe src="http://sulley.cah.ucf.edu/~dig4104c_group04/pdf/Annual_Report_2016.pdf" style="width:800px; height:600px;" frameborder="0"></iframe>
-      </div>
-    </li>
-    <li>
-      <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
-      <div class="collapsible-body">
-        <iframe src="http://sulley.cah.ucf.edu/~dig4104c_group04/pdf/Annual_Report_2015.pdf" style="width:800px; height:600px;" frameborder="0"></iframe>
-      </div>
-    </li>
-    <li>
-      <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
-      <div class="collapsible-body">
-        <iframe src="http://sulley.cah.ucf.edu/~dig4104c_group04/pdf/Annual_Report_2014.pdf" style="width:800px; height:600px;" frameborder="0"></iframe>
-      </div>
-    </li>
-  </ul>
+        <div class="col s12"> 
+          <ul class="collapsible" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header">2016 Annual Report</div>
+              <div class="collapsible-body"> 
+              <iframe src="http://sulley.cah.ucf.edu/~dig4104c_group04/pdf/Annual_Report_2016.pdf" style="width:800px; height:600px;" frameborder="0"></iframe>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header">2015 Annual Report</div>
+              <div class="collapsible-body">
+                <iframe src="http://sulley.cah.ucf.edu/~dig4104c_group04/pdf/Annual_Report_2015.pdf" style="width:800px; height:600px;" frameborder="0"></iframe>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header">2014 Annual Report</div>
+              <div class="collapsible-body">
+                <iframe src="http://sulley.cah.ucf.edu/~dig4104c_group04/pdf/Annual_Report_2014.pdf" style="width:800px; height:600px;" frameborder="0"></iframe>
+              </div>
+            </li>
+          </ul>
         </div>
 		</div>
 	</div>	
-
-
-
-
           <?php include('footer.php'); ?>
     </body>
 

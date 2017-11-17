@@ -25,55 +25,55 @@
 	
 	  <div class ="row">
     <center><h1>Contact Us</h1></center>
-    <form class="col l10 s10 offset-s1 offset-l1">
+    <form class="col l10 s10 offset-s1 offset-l1" method="post" action="form.php">
       <div class="row">
         <div class="input-field col s6">
-          <input id="first_name" type="text" class="validate">
+          <input id="first_name" name="first_name" type="text" class="validate">
           <label for="first_name">First Name</label>
         </div>
         <div class="input-field col s6">
-          <input id="last_name" type="text" class="validate">
+          <input id="last_name" name="last_name" type="text" class="validate">
           <label for="last_name">Last Name</label>
         </div>
       </div>
       <div class="row">
         <div class="input-field col s6">
-          <input id="company" type="text" class="validate">
+          <input id="company" name="company" type="text" class="validate">
           <label for="company">Company</label>
         </div>
       </div>
       <div class="row">
         <div class="input-field col s6">
-          <input id="email" type="email" class="validate">
+          <input id="email" name="email" type="email" class="validate">
           <label for="email">Email</label>
         </div>
         <div class="input-field col s6">
-          <input id="number" type="text" class="validate">
+          <input id="number" name="phone" type="text" class="validate">
           <label for="number">Phone Number</label>
         </div>
       </div>
       <div class="row">
         <div class="input-field col s6">
-          <input id="address" type="text" class="validate">
+          <input id="address" name="address" type="text" class="validate">
           <label for="address">Address</label>
         </div>
       </div>
       <div class="row">
         <div class="input-field col s12">
-          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <textarea id="textarea1" name="message" class="materialize-textarea"></textarea>
           <label for="textarea1">Textarea</label>
         </div>
       </div>
       <p>
-        <input type="checkbox" id="check1" />
+        <input type="checkbox" name="update" id="check1" />
         <label for="check1">Update Information</label>
       </p>
       <p>
-        <input type="checkbox" id="check2" />
+        <input type="checkbox" name="news" id="check2" />
         <label for="check2">Request Newsletter</label>
       </p>
-      <a class="waves-effect waves-light btn right">Submit</a>
-    </form>
+      <input type="submit" class="btn btn-success btn-send" value="Submit">
+      </form>
 	</div>	
 	
 	<div class="container">
@@ -92,39 +92,7 @@
             </div>
         </div>
 		</div>
-        <div class="col l6 s12">
-          <div class="card blue accent-2">
-            <div class="card-content white-text">
-				<h4>Canadian National Office</h4>
-              		<p>The Sunshine Kids Foundation<br/>
-             		36 Brookshire Ct.<br/>
-					Suite 200<br/>
-					Bedford, NS B4A 4E9<br/>
-					(877) 576-3452 - Office<br/>
-					Email: canada@sunshinekids.org </p>
-            </div>
-        </div>
-		</div>
-		</div>
-	</div>	
-	
-		<div class="container">
-      	      <div class="row center valign-wrapper"">
-        <div class="col l4 s12">
-          <div class="card blue accent-2">
-            <div class="card-content white-text">
-				<h4>US Western Office</h4>
-              <p>The Sunshine Kids Foundation<br/>
-					662 N. Van Ness Ave. #203<br/>
-					Los Angeles, CA. 90004<br/>
-					(323) 769-2520 - Office<br/>
-					(323) 769-2521 - Fax<br/>
-					Email: west@sunshinekids.org 
-			</p>
-            </div>
-        </div>
-		</div>
-        <div class="col l4 s12">
+    <div class="col l6 s12">
           <div class="card blue accent-2">
             <div class="card-content white-text">
 				<h4>US Southeast Office</h4>
@@ -138,7 +106,26 @@
             </div>
         </div>
 		</div>
-		        <div class="col l4 s12">
+		</div>
+	</div>	
+	
+		<div class="container">
+      	      <div class="row center valign-wrapper">
+        <div class="col l6 s12">
+          <div class="card blue accent-2">
+            <div class="card-content white-text">
+				<h4>US Western Office</h4>
+              <p>The Sunshine Kids Foundation<br/>
+					662 N. Van Ness Ave. #203<br/>
+					Los Angeles, CA. 90004<br/>
+					(323) 769-2520 - Office<br/>
+					(323) 769-2521 - Fax<br/>
+					Email: west@sunshinekids.org 
+			</p>
+            </div>
+        </div>
+		</div>
+		        <div class="col l6 s12">
           <div class="card blue accent-2">
             <div class="card-content white-text">
 				<h4>US Eastern Office</h4>

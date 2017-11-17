@@ -29,25 +29,25 @@
 			<h4>Audited Financials</h4>
 		</div>
 	   
-      <div class="row center">
-  <a class='dropdown-button btn blueaccent-2' href='#' data-belowOrigin="true" data-activates='dropdowna'><h6>2016 - Audit<i class="material-icons">arrow_drop_down_circle</i></h6></a>
-  <a class="waves-effect waves-light btn blueaccent-2"><h6>download<i class="material-icons">arrow_downward</i></h6></a>
-
-  <ul id='dropdowna' class='dropdown-content'>
-    <li><a href="#!">2016 - Audit</a></li>
-    <li><a href="#!">2016 - 990</a></li>
-  </ul>
-		</div>
 	</div>	
 	
 		   <div class ="container">
       <div class="row center">
         <div class="col s12">
-          <div class="card center">
-            <div class="card-image">
-              <img src="img/auditpdf.jpg">
-            </div>
-          </div>
+            <ul class="collapsible" data-collapsible="accordion">
+              <li>
+                <div class="collapsible-header">2016 Audited Financial Statement</div>
+                <div class="collapsible-body"> 
+                <iframe src="http://sulley.cah.ucf.edu/~dig4104c_group04/pdf/2016_Audited.pdf" style="width:800px; height:600px;" frameborder="0"></iframe>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header">2016 990 Final</div>
+                <div class="collapsible-body">
+                  <iframe src="http://sulley.cah.ucf.edu/~dig4104c_group04/pdf/2016_990.pdf" style="width:800px; height:600px;" frameborder="0"></iframe>
+                </div>
+              </li>
+            </ul>
         </div>
 		</div>
 	</div>	
