@@ -29,9 +29,7 @@
 			<h4>YouTube</h4>
           <div class="card center">
             <div class="card-image">
-                <a href="https://www.youtube.com/user/TheSunshineKids" target="_blank">
-				<img src="img/youtube_mockup.jpg">
-              </a>
+				<iframe width="100%" height="405" src="https://www.youtube.com/embed/?listType=playlist&index=4&list=UUHPSqZP5-9Jcyj4iRl3xN7Q" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
 		</div>

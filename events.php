@@ -31,15 +31,7 @@
 	   
       <div class="row center">
     <div class="col s12">
-      <ul class="tabs">
-        <li class="tab col s4"><a href="#fundraising">Fundraising Events</a></li>
-        <li class="tab col s4"><a href="#benefit">Benefit Events</a></li>
-        <li class="tab col s4"><a href="#hospital">Participating Hospitals</a></li>
-      </ul>
-    </div>
-    <div id="fundraising" class="col s12"><img class="responsive-img" src="img/map_mockup.jpg"></div>
-    <div id="benefit" class="col s12"><img class="responsive-img" src="img/map_mockup.jpg"></div>
-    <div id="hospital" class="col s12"><img class="responsive-img" src="img/map_mockup.jpg"></div>
+<iframe src="https://www.google.com/maps/d/embed?mid=1mLYm1F-XM9kGRuxQjzJSZcK_0Jc&z=5&ll=36.80928, -100.54687" width="100%" height="700"></iframe></div>
   </div>
 		</div>
 	</div>	

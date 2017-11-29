@@ -22,10 +22,10 @@
     <a class="carousel-item" href="#four!"><img src="img/hero4.jpg"></a>
 	<a class="carousel-item" href="#four!"><img src="img/hero5.jpg"></a>
   </div>
-	
 	  <div class ="row">
     <center><h1>Contact Us</h1></center>
-    <form class="col l10 s10 offset-s1 offset-l1" method="post" action="form.php">
+		</div>
+    <form class="col l10 s10 offset-s1 offset-l1 container" method="post" action="form.php">
       <div class="row">
         <div class="input-field col s6">
           <input id="first_name" name="first_name" type="text" class="validate">
@@ -64,6 +64,7 @@
           <label for="textarea1">Textarea</label>
         </div>
       </div>
+	  <div class="row offset-1">
       <p>
         <input type="checkbox" name="update" id="check1" />
         <label for="check1">Update Information</label>
@@ -72,15 +73,17 @@
         <input type="checkbox" name="news" id="check2" />
         <label for="check2">Request Newsletter</label>
       </p>
-      <input type="submit" class="btn btn-success btn-send" value="Submit">
+      <input type="submit" class="btn btn-success btn-send center" value="Submit">
+	  </div>
       </form>
 	</div>	
-	
+	<br/>
+	<br/>
 	<div class="container">
       <div class="row center valign-wrapper">
         <div class="col l6 s12">
           <div class="card blue accent-2">
-            <div class="card-content white-text">
+            <div class="card-content-cvx white-text">
 				<h4>United States National Office</h4>
 				 <p>The Sunshine Kids Foundation<br/>
              		2814 Virginia St.<br/>
@@ -94,7 +97,7 @@
 		</div>
     <div class="col l6 s12">
           <div class="card blue accent-2">
-            <div class="card-content white-text">
+            <div class="card-content-cvx white-text">
 				<h4>US Southeast Office</h4>
               <p>The Sunshine Kids Foundation<br/>
 					5137 Castello Dr <br/>
@@ -113,7 +116,7 @@
       	      <div class="row center valign-wrapper">
         <div class="col l6 s12">
           <div class="card blue accent-2">
-            <div class="card-content white-text">
+            <div class="card-content-cvx white-text">
 				<h4>US Western Office</h4>
               <p>The Sunshine Kids Foundation<br/>
 					662 N. Van Ness Ave. #203<br/>
@@ -127,7 +130,7 @@
 		</div>
 		        <div class="col l6 s12">
           <div class="card blue accent-2">
-            <div class="card-content white-text">
+            <div class="card-content-cvx white-text">
 				<h4>US Eastern Office</h4>
 				<p>The Sunshine Kids Foundation<br/>
 					2 Hartford Square West<br/>
